@@ -1,0 +1,50 @@
+body {
+  background-color: rgb(255 165 165);
+  text-align: center;
+  margin-top: 50px;
+}
+h2 {
+  font-family: "Oswald";
+  color: #940505;
+  font-weight: bold;
+}
+.resh1 {
+  font-family: "Oswald";
+  color: rgb(56, 49, 49);
+  font-weight: bold;
+  font-size: 57px;
+}
+.top {
+  font-family: "Lobster";
+  font-size: 30px;
+  color: black;
+}
+li {
+  border-radius: 6px;
+  list-style: none;
+  background-color: #ff7c7c;
+  margin: 0px 263px 0px 220px;
+  text-align: center;
+  padding: 6px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+}
+p {
+  font-family: sans-serif;
+  color: rgb(56, 49, 49);
+  font-weight: 600;
+}
+a {
+  text-decoration: none;
+  color: #940505;
+  font-family: sans-serif;
+  font-weight: bold;
+  padding: 10px;
+  margin: 32px;
+  background-color: rgb(255 165 165);
+  border-radius: 28px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+}
+a:hover {
+  background-color: #ff7c7c;
+  border-radius: 28px;
+}
