@@ -5,7 +5,7 @@
 section {
   position: relative;
   width: 100%;
-  height: 30vh;
+  height: 27vh;
   background: #009dae;
   overflow: hidden;
 }
@@ -92,8 +92,22 @@ main {
 .name {
   text-align: center;
   position: relative;
+  line-height: 60px;
   font-family: "Gwendolyn";
   font-size: 30px;
+  color: #009dae;
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+.name p {
+  font-family: sans-serif;
+  position: relative;
+  left: 25px;
+  font-size: 25px;
+}
+.webdevimg {
+  position: relative;
+  top: 30px;
+  right: 30px;
 }
 .bottom-cloud {
   position: absolute;
@@ -107,25 +121,50 @@ main {
   top: 20px;
 }
 .middle {
-  margin-left: 100px;
-  background-color: #ffe652;
+  background-color: ##c2fff9;
+  padding-left: 100px;
+  padding-top: 100px;
 }
 .my-info {
-  background-color: #71dfe7;
+  /*background-color: #71dfe7;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
-  border-top-left-radius: 22px;
-  border-bottom-right-radius: 22px;
+  border-top-left-radius: 30px;
+  border-bottom-right-radius: 30px;*/
   padding: 20px;
   height: 199px;
   max-width: 626px;
   text-align: left;
   display: inline-flexbox;
+  animation: moving 3s;
+  position: relative;
+}
+@keyframes moving {
+  0% {
+    opacity: 0;
+    top: 400px;
+  }
+  25% {
+    opacity: 0.2;
+    top: 30px;
+  }
+  50% {
+    opacity: 0.5;
+    top: 10px;
+  }
+  75% {
+    opacity: 0.7;
+    top: 5px;
+  }
+  100% {
+    opacity: 1;
+    top: 0px;
+  }
 }
 .my-info2 {
-  background-color: #71dfe7;
+  /*background-color: #71dfe7;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
   border-top-left-radius: 22px;
-  border-bottom-right-radius: 22px;
+  border-bottom-right-radius: 22px;*/
   padding: 20px;
   height: 199px;
   max-width: 626px;
@@ -138,10 +177,14 @@ main {
 }
 .tin {
   transition: ease-in;
-  height: 200px;
-  width: 200px;
+  height: 180px;
+  width: 180px;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
-  border-radius: 5px;
+  border-radius: 360px;
+}
+h3 {
+  position: relative;
+  top: 26px;
 }
 .left {
   position: relative;
@@ -150,6 +193,8 @@ main {
 }
 .left p {
   margin-right: 232px;
+  position: relative;
+  top: 37px;
 }
 .right {
   position: relative;
@@ -158,4 +203,6 @@ main {
 }
 .right p {
   margin-left: 232px;
+  position: relative;
+  top: 37px;
 }
